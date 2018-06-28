@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    background-color: #753131;
+    color: #ffe8e8;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #ddd;
+    background-color: #753131;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 9em;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px sold #ddd;
+}
+input[type=submit]{
+    border-radius: 5px;
+    padding: 12px 10px;
+    background-color: #753131;
+    color: white;
+    border:none;
+    width: 9em;
+}
+input[type=color]{
+    padding: 5px 5px;
+    border-radius: 5px;   
+    background-color: #753131;
+    width: 6em;
+    height: 35px;
+}
